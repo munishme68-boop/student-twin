@@ -1,0 +1,29 @@
+{
+    "student_id": "demo_student",
+    "email": "demo@student.com",
+    "name": "Demo Student",
+    "profile": {
+        "goal": "Become an AI Engineer"
+    },
+    "knowledge": {
+        "python": 0.5,
+        "probability": 0.5,
+        "statistics": 0.5,
+        "machine_learning": 0.4,
+        "neural_networks": 0.3,
+        "convolution": 0.3,
+        "cnn": 0.2,
+        "rnn": 0.3,
+        "lstm": 0.2,
+        "image_classification": 0.2,
+        "object_detection": 0.2,
+        "natural_language_processing": 0.3,
+        "word_embeddings": 0.2,
+        "transformers": 0.2,
+        "generative_ai": 0.2,
+        "large_language_models": 0.2,
+        "model_deployment": 0.3,
+        "mlops": 0.2
+    },
+    "history": []
+}

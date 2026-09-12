@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+students/*.json
+!students/demo_at_student_com.json
