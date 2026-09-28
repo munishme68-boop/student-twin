@@ -583,32 +583,62 @@ if (
             "different AI and machine-learning topics."
         )
 
-        if st.button("Start Initial Assessment"):
-
-            assessment_questions = []
-
-            assessment_topics = [
+        assessment_topic = st.selectbox(
+            "Choose a topic for your initial assessment:",
+            [
                 "python",
                 "probability",
                 "statistics",
                 "machine_learning",
-                "neural_networks"
+                "neural_networks",
+                "convolution",
+                "cnn",
+                "rnn",
+                "lstm",
+                "natural_language_processing",
+                "transformers",
+                "image_classification",
+                "object_detection",
+                "word_embeddings",
+                "generative_ai",
+                "large_language_models",
+                "model_deployment",
+                "mlops",
+                "thermodynamics",
+                "fluid_mechanics",
+                "ros"
+            ]
+        )  
+        
+        if st.button("Start Initial Assessment"):
+
+            assessment_questions = []
+
+            # --------------------------------
+            # SELECTED TOPIC
+            # --------------------------------
+
+            selected_topic = assessment_topic
+
+
+            # --------------------------------
+            # GET QUESTIONS FROM SELECTED TOPIC
+            # --------------------------------
+
+            selected_questions = [
+                q
+                for q in question_bank
+                if q["topic"] == selected_topic
             ]
 
-            for topic in assessment_topics:
 
-                topic_questions = [
-                    q
-                    for q in question_bank
-                    if q["topic"] == topic
-                ]
+            # --------------------------------
+            # 15 QUESTION ASSESSMENT
+            # --------------------------------
 
-                if len(topic_questions) > 0:
-
-                    assessment_questions.append(
-                        topic_questions[0]
-                    )
-
+            assessment_questions = (
+                selected_questions[:15]
+            )
             st.session_state.assessment_questions = (
                 assessment_questions
             )
