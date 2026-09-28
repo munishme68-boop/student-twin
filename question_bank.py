@@ -2362,9 +2362,2153 @@ question_bank = [
             "Only designing neural network diagrams"
         ],
         "answer": 1
-    }
+    },
 
-    
+        # =========================
+    # THERMODYNAMICS
+    # =========================
+
+    {
+        "id": 163,
+        "topic": "thermodynamics",
+        "difficulty": "easy",
+        "question": "What is the SI unit of temperature?",
+        "options": ["Celsius", "Kelvin", "Fahrenheit", "Joule"],
+        "answer": 2
+    },
+
+    {
+        "id": 164,
+        "topic": "thermodynamics",
+        "difficulty": "easy",
+        "question": "Which law of thermodynamics deals with conservation of energy?",
+        "options": [
+            "Zeroth law",
+            "First law",
+            "Second law",
+            "Third law"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 165,
+        "topic": "thermodynamics",
+        "difficulty": "easy",
+        "question": "What is the SI unit of pressure?",
+        "options": ["Newton", "Joule", "Pascal", "Watt"],
+        "answer": 3
+    },
+
+    {
+        "id": 166,
+        "topic": "thermodynamics",
+        "difficulty": "easy",
+        "question": "Which property does not depend on the amount of substance?",
+        "options": [
+            "Mass",
+            "Volume",
+            "Specific volume",
+            "Total energy"
+        ],
+        "answer": 3
+    },
+
+    {
+        "id": 167,
+        "topic": "thermodynamics",
+        "difficulty": "easy",
+        "question": "What is heat transfer from a hotter body to a colder body?",
+        "options": [
+            "Work",
+            "Heat transfer",
+            "Mass transfer",
+            "Compression"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 168,
+        "topic": "thermodynamics",
+        "difficulty": "medium",
+        "question": "For an ideal gas, which equation relates pressure, volume, temperature and amount of gas?",
+        "options": [
+            "PV = mgh",
+            "PV = nRT",
+            "P = ρgh",
+            "Q = mc"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 169,
+        "topic": "thermodynamics",
+        "difficulty": "medium",
+        "question": "What happens to the temperature of an ideal gas during an isothermal process?",
+        "options": [
+            "It remains constant",
+            "It always increases",
+            "It always decreases",
+            "It becomes zero"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 170,
+        "topic": "thermodynamics",
+        "difficulty": "medium",
+        "question": "In an adiabatic process, which quantity is zero?",
+        "options": [
+            "Pressure",
+            "Temperature",
+            "Heat transfer",
+            "Work"
+        ],
+        "answer": 3
+    },
+
+    {
+        "id": 171,
+        "topic": "thermodynamics",
+        "difficulty": "medium",
+        "question": "What does entropy measure in thermodynamics?",
+        "options": [
+            "Only pressure",
+            "Energy disorder or energy dispersal",
+            "Only volume",
+            "Mass of a system"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 172,
+        "topic": "thermodynamics",
+        "difficulty": "medium",
+        "question": "Which thermodynamic process occurs at constant pressure?",
+        "options": [
+            "Isochoric",
+            "Isothermal",
+            "Isobaric",
+            "Adiabatic"
+        ],
+        "answer": 3
+    },
+
+    {
+        "id": 173,
+        "topic": "thermodynamics",
+        "difficulty": "hard",
+        "question": "For a reversible process, the change in entropy can be expressed as:",
+        "options": [
+            "dS = δQ_rev / T",
+            "dS = T / δQ_rev",
+            "dS = P dV",
+            "dS = V dP"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 174,
+        "topic": "thermodynamics",
+        "difficulty": "hard",
+        "question": "For an ideal gas, internal energy is primarily a function of:",
+        "options": [
+            "Pressure only",
+            "Volume only",
+            "Temperature only",
+            "Pressure and volume independently"
+        ],
+        "answer": 3
+    },
+
+    {
+        "id": 175,
+        "topic": "thermodynamics",
+        "difficulty": "hard",
+        "question": "What does the second law of thermodynamics establish?",
+        "options": [
+            "Conservation of mass only",
+            "Direction of natural processes and entropy behavior",
+            "Absolute zero temperature",
+            "The ideal gas equation"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 176,
+        "topic": "thermodynamics",
+        "difficulty": "hard",
+        "question": "The coefficient of performance of a refrigerator is defined as:",
+        "options": [
+            "Work input / refrigeration effect",
+            "Refrigeration effect / work input",
+            "Heat rejected / work output",
+            "Work output / heat supplied"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 177,
+        "topic": "thermodynamics",
+        "difficulty": "hard",
+        "question": "For a Carnot engine operating between temperatures T_H and T_L, its thermal efficiency is:",
+        "options": [
+            "1 - T_L/T_H",
+            "1 - T_H/T_L",
+            "T_H/T_L",
+            "T_L/T_H"
+        ],
+        "answer": 1
+    },
+
+
+    # =========================
+    # FLUID MECHANICS
+    # =========================
+
+    {
+        "id": 178,
+        "topic": "fluid_mechanics",
+        "difficulty": "easy",
+        "question": "What is the SI unit of dynamic viscosity?",
+        "options": [
+            "Pa·s",
+            "N",
+            "m/s",
+            "J"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 179,
+        "topic": "fluid_mechanics",
+        "difficulty": "easy",
+        "question": "What is density defined as?",
+        "options": [
+            "Mass per unit volume",
+            "Volume per unit mass",
+            "Force per unit area",
+            "Mass per unit area"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 180,
+        "topic": "fluid_mechanics",
+        "difficulty": "easy",
+        "question": "Which instrument is commonly used to measure pressure?",
+        "options": [
+            "Thermometer",
+            "Manometer",
+            "Hygrometer",
+            "Calorimeter"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 181,
+        "topic": "fluid_mechanics",
+        "difficulty": "easy",
+        "question": "A fluid at rest is called a:",
+        "options": [
+            "Dynamic fluid",
+            "Static fluid",
+            "Ideal gas",
+            "Turbulent fluid"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 182,
+        "topic": "fluid_mechanics",
+        "difficulty": "easy",
+        "question": "What does pressure represent?",
+        "options": [
+            "Force per unit area",
+            "Mass per unit volume",
+            "Energy per unit mass",
+            "Velocity per unit time"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 183,
+        "topic": "fluid_mechanics",
+        "difficulty": "medium",
+        "question": "What does the continuity equation represent for steady incompressible flow?",
+        "options": [
+            "Conservation of mass",
+            "Conservation of temperature",
+            "Conservation of viscosity",
+            "Conservation of entropy"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 184,
+        "topic": "fluid_mechanics",
+        "difficulty": "medium",
+        "question": "Bernoulli's equation is based primarily on conservation of:",
+        "options": [
+            "Mass",
+            "Energy",
+            "Temperature",
+            "Viscosity"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 185,
+        "topic": "fluid_mechanics",
+        "difficulty": "medium",
+        "question": "What does Reynolds number help determine?",
+        "options": [
+            "Fluid color",
+            "Flow regime",
+            "Fluid temperature",
+            "Pipe material"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 186,
+        "topic": "fluid_mechanics",
+        "difficulty": "medium",
+        "question": "In a horizontal pipe, if the flow velocity increases, the pressure generally:",
+        "options": [
+            "Increases",
+            "Decreases",
+            "Always becomes zero",
+            "Remains exactly unchanged"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 187,
+        "topic": "fluid_mechanics",
+        "difficulty": "medium",
+        "question": "Which force is mainly responsible for surface tension?",
+        "options": [
+            "Gravitational force",
+            "Cohesive molecular forces",
+            "Magnetic force",
+            "Centrifugal force"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 188,
+        "topic": "fluid_mechanics",
+        "difficulty": "hard",
+        "question": "For incompressible steady one-dimensional flow, the continuity equation is:",
+        "options": [
+            "A₁V₁ = A₂V₂",
+            "P₁V₁ = P₂V₂",
+            "P₁/A₁ = P₂/A₂",
+            "V₁/V₂ = A₁A₂"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 189,
+        "topic": "fluid_mechanics",
+        "difficulty": "hard",
+        "question": "What is the Reynolds number defined as?",
+        "options": [
+            "ρVD/μ",
+            "μVD/ρ",
+            "ρμ/VD",
+            "VD/ρμ"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 190,
+        "topic": "fluid_mechanics",
+        "difficulty": "hard",
+        "question": "For fully developed laminar flow through a circular pipe, the velocity profile is:",
+        "options": [
+            "Uniform",
+            "Parabolic",
+            "Sinusoidal",
+            "Exponential"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 191,
+        "topic": "fluid_mechanics",
+        "difficulty": "hard",
+        "question": "What does cavitation occur when local fluid pressure falls below?",
+        "options": [
+            "Atmospheric pressure only",
+            "Vapor pressure of the liquid",
+            "Critical pressure of air",
+            "Zero pressure"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 192,
+        "topic": "fluid_mechanics",
+        "difficulty": "hard",
+        "question": "In Bernoulli's equation, pressure head has the dimensions of:",
+        "options": [
+            "Velocity",
+            "Length",
+            "Mass",
+            "Time"
+        ],
+        "answer": 2
+    },
+
+
+    # =========================
+    # ROS 2
+    # =========================
+
+    {
+        "id": 193,
+        "topic": "ros",
+        "difficulty": "easy",
+        "question": "What does ROS stand for?",
+        "options": [
+            "Robot Operating System",
+            "Robotic Output Service",
+            "Remote Operating Software",
+            "Robot Object Structure"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 194,
+        "topic": "ros",
+        "difficulty": "easy",
+        "question": "What is a node in ROS 2?",
+        "options": [
+            "A physical sensor only",
+            "A process that performs a specific task",
+            "A type of battery",
+            "A robot wheel"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 195,
+        "topic": "ros",
+        "difficulty": "easy",
+        "question": "Which communication mechanism is commonly used for continuous data streams in ROS 2?",
+        "options": [
+            "Topics",
+            "Passwords",
+            "Files only",
+            "Serial numbers"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 196,
+        "topic": "ros",
+        "difficulty": "easy",
+        "question": "Which language is commonly supported for ROS 2 programming?",
+        "options": [
+            "Python",
+            "HTML only",
+            "SQL only",
+            "CSS only"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 197,
+        "topic": "ros",
+        "difficulty": "easy",
+        "question": "What is a ROS 2 package?",
+        "options": [
+            "A collection of ROS-related files and software",
+            "A physical box for a robot",
+            "A type of sensor",
+            "A battery management system"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 198,
+        "topic": "ros",
+        "difficulty": "medium",
+        "question": "In ROS 2, what does a publisher do?",
+        "options": [
+            "Sends messages to a topic",
+            "Only receives messages",
+            "Compiles Python",
+            "Controls battery voltage"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 199,
+        "topic": "ros",
+        "difficulty": "medium",
+        "question": "In ROS 2, what does a subscriber do?",
+        "options": [
+            "Sends messages to a topic",
+            "Receives messages from a topic",
+            "Creates a Linux kernel",
+            "Builds hardware circuits"
+        ],
+        "answer": 2
+    },
+
+    {
+        "id": 200,
+        "topic": "ros",
+        "difficulty": "medium",
+        "question": "Which ROS 2 command lists available topics?",
+        "options": [
+            "ros2 topic list",
+            "ros2 node show",
+            "ros2 package build",
+            "ros2 topic create"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 201,
+        "topic": "ros",
+        "difficulty": "medium",
+        "question": "Which ROS 2 command lists active nodes?",
+        "options": [
+            "ros2 node list",
+            "ros2 topic list",
+            "ros2 run list",
+            "ros2 package list"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 202,
+        "topic": "ros",
+        "difficulty": "medium",
+        "question": "What is the purpose of a ROS 2 service?",
+        "options": [
+            "Request-response communication",
+            "Only continuous sensor streaming",
+            "Storing images permanently",
+            "Compiling the operating system"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 203,
+        "topic": "ros",
+        "difficulty": "hard",
+        "question": "What is the main difference between a ROS 2 service and an action?",
+        "options": [
+            "An action supports long-running tasks with feedback and a result",
+            "A service can only use Python",
+            "An action cannot communicate between nodes",
+            "A service always provides continuous feedback"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 204,
+        "topic": "ros",
+        "difficulty": "hard",
+        "question": "Which tool is commonly used to build ROS 2 workspaces?",
+        "options": [
+            "colcon",
+            "pip",
+            "npm",
+            "gcc-only"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 205,
+        "topic": "ros",
+        "difficulty": "hard",
+        "question": "Which Python client library is commonly used to create ROS 2 nodes?",
+        "options": [
+            "rclpy",
+            "numpy",
+            "flask",
+            "pandas"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 206,
+        "topic": "ros",
+        "difficulty": "hard",
+        "question": "What is the purpose of a ROS 2 launch file?",
+        "options": [
+            "Start and configure multiple ROS nodes and related components",
+            "Format a hard drive",
+            "Train a neural network automatically",
+            "Change the robot's physical dimensions"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 207,
+        "topic": "ros",
+        "difficulty": "hard",
+        "question": "What is DDS primarily used for in ROS 2?",
+        "options": [
+            "Underlying data communication between ROS 2 nodes",
+            "Computer graphics rendering",
+            "Battery charging",
+            "Mechanical manufacturing"
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 208,
+        "topic": 'python',
+        "difficulty": 'easy',
+        "question": 'Which data type stores an ordered, changeable collection in Python?',
+        "options": [
+            'List',
+            'Tuple',
+            'Set',
+            'String',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 209,
+        "topic": 'python',
+        "difficulty": 'easy',
+        "question": 'Which function returns the number of items in a Python collection?',
+        "options": [
+            'size()',
+            'count()',
+            'len()',
+            'length()',
+        ],
+        "answer": 3
+    },
+
+    {
+        "id": 210,
+        "topic": 'python',
+        "difficulty": 'medium',
+        "question": 'What is the main purpose of a Python dictionary?',
+        "options": [
+            'Store key-value pairs',
+            'Store only numbers',
+            'Create loops',
+            'Define classes',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 211,
+        "topic": 'python',
+        "difficulty": 'medium',
+        "question": 'What does a list comprehension primarily provide?',
+        "options": [
+            'A compact way to create lists',
+            'A way to compile Python',
+            'A database connection',
+            'A method for installing packages',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 212,
+        "topic": 'python',
+        "difficulty": 'hard',
+        "question": 'What does the `try`/`except` structure handle?',
+        "options": [
+            'Exceptions',
+            'Loops',
+            'Imports',
+            'Comments',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 213,
+        "topic": 'python',
+        "difficulty": 'hard',
+        "question": 'What is the difference between `==` and `is` in Python?',
+        "options": [
+            '`==` compares values; `is` checks object identity',
+            'Both always check identity',
+            '`==` checks types only',
+            '`is` performs arithmetic',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 214,
+        "topic": 'machine_learning',
+        "difficulty": 'easy',
+        "question": 'Which type of learning uses labeled input-output examples?',
+        "options": [
+            'Supervised learning',
+            'Unsupervised learning',
+            'Reinforcement learning',
+            'Random search',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 215,
+        "topic": 'machine_learning',
+        "difficulty": 'easy',
+        "question": 'What is a feature in a machine-learning dataset?',
+        "options": [
+            'An input variable used by a model',
+            'The final prediction only',
+            'A model parameter after training',
+            'A software license',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 216,
+        "topic": 'machine_learning',
+        "difficulty": 'medium',
+        "question": 'Why is a validation set commonly used?',
+        "options": [
+            'To tune choices without using the final test set',
+            'To replace all training data',
+            'To store model code',
+            'To increase the number of classes',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 217,
+        "topic": 'machine_learning',
+        "difficulty": 'medium',
+        "question": 'What does regularization generally try to reduce?',
+        "options": [
+            'Overfitting',
+            'Data collection',
+            'Number of features to zero',
+            'Training labels',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 218,
+        "topic": 'machine_learning',
+        "difficulty": 'hard',
+        "question": 'Why can a decision tree overfit when it becomes very deep?',
+        "options": [
+            'It can memorize noise and specific training examples',
+            'It cannot split data',
+            'It always has high bias',
+            'It ignores every feature',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 219,
+        "topic": 'machine_learning',
+        "difficulty": 'hard',
+        "question": 'What is the purpose of cross-validation?',
+        "options": [
+            'Estimate generalization performance across multiple train-validation splits',
+            'Guarantee 100% test accuracy',
+            'Remove all missing values automatically',
+            'Convert classification into regression',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 220,
+        "topic": 'neural_networks',
+        "difficulty": 'easy',
+        "question": 'What is a weight in a neural network?',
+        "options": [
+            'A learned parameter multiplying an input',
+            'A dataset row',
+            'A loss value only',
+            'A class label',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 221,
+        "topic": 'neural_networks',
+        "difficulty": 'easy',
+        "question": 'What does a bias term allow a neuron to do?',
+        "options": [
+            'Shift its activation independently of the weighted inputs',
+            'Store the training dataset',
+            'Remove all nonlinearities',
+            'Set the batch size',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 222,
+        "topic": 'neural_networks',
+        "difficulty": 'medium',
+        "question": 'Why are nonlinear activation functions used?',
+        "options": [
+            'They let networks represent nonlinear relationships',
+            'They remove the need for data',
+            'They guarantee no overfitting',
+            'They make all outputs binary',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 223,
+        "topic": 'neural_networks',
+        "difficulty": 'medium',
+        "question": 'What is an epoch?',
+        "options": [
+            'One complete pass through the training data',
+            'One neuron',
+            'One test example',
+            'One gradient value',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 224,
+        "topic": 'neural_networks',
+        "difficulty": 'hard',
+        "question": 'Why can very large gradients be a problem?',
+        "options": [
+            'Updates can become unstable or excessively large',
+            'The model cannot read labels',
+            'The loss becomes exactly zero',
+            'The input dimension becomes zero',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 225,
+        "topic": 'neural_networks',
+        "difficulty": 'hard',
+        "question": 'What does backpropagation compute?',
+        "options": [
+            'Gradients of the loss with respect to parameters',
+            'Only the final class label',
+            'The number of training samples',
+            'The test-set accuracy directly',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 226,
+        "topic": 'convolution',
+        "difficulty": 'easy',
+        "question": 'In a convolution operation, what is a kernel?',
+        "options": [
+            'A small set of learnable weights applied locally',
+            'A dataset name',
+            'A training epoch',
+            'A class label',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 227,
+        "topic": 'convolution',
+        "difficulty": 'easy',
+        "question": 'What does stride control in convolution?',
+        "options": [
+            'How far the kernel moves between positions',
+            'The number of classes',
+            'The learning rate',
+            'The loss function',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 228,
+        "topic": 'convolution',
+        "difficulty": 'medium',
+        "question": 'What is padding used for in convolution?',
+        "options": [
+            'To control spatial size and border handling',
+            'To increase the learning rate',
+            'To remove channels',
+            'To label images',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 229,
+        "topic": 'convolution',
+        "difficulty": 'medium',
+        "question": 'If stride increases while other settings stay fixed, what usually happens to output spatial size?',
+        "options": [
+            'It decreases',
+            'It always doubles',
+            'It becomes infinite',
+            'It stays exactly the same in every case',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 230,
+        "topic": 'convolution',
+        "difficulty": 'hard',
+        "question": 'Why do convolutional filters help image models?',
+        "options": [
+            'They learn local spatial patterns using shared weights',
+            'They assign a unique weight to every image pixel independently',
+            'They remove all spatial information',
+            'They require no training',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 231,
+        "topic": 'convolution',
+        "difficulty": 'hard',
+        "question": 'What is receptive field in a convolutional network?',
+        "options": [
+            'The region of the input that can influence a unit',
+            'The number of output classes',
+            'The optimizer learning rate',
+            'The number of epochs',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 232,
+        "topic": 'cnn',
+        "difficulty": 'easy',
+        "question": 'What does CNN stand for?',
+        "options": [
+            'Convolutional Neural Network',
+            'Continuous Neural Node',
+            'Computed Network Number',
+            'Central Numeric Network',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 233,
+        "topic": 'cnn',
+        "difficulty": 'easy',
+        "question": 'Which type of data is a CNN especially suited for?',
+        "options": [
+            'Images and spatial grid data',
+            'Only tabular salaries',
+            'Only text labels',
+            'Only scalar constants',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 234,
+        "topic": 'cnn',
+        "difficulty": 'medium',
+        "question": 'What is pooling commonly used for in a CNN?',
+        "options": [
+            'Downsampling feature maps',
+            'Increasing image file size',
+            'Generating labels',
+            'Replacing all convolutions',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 235,
+        "topic": 'cnn',
+        "difficulty": 'medium',
+        "question": 'What does a feature map represent?',
+        "options": [
+            'Activations produced by filters over spatial locations',
+            'The original image filename',
+            'The training history only',
+            'A list of class names',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 236,
+        "topic": 'cnn',
+        "difficulty": 'hard',
+        "question": 'Why can pooling improve computational efficiency?',
+        "options": [
+            'It reduces spatial dimensions',
+            'It increases every feature map dimension',
+            'It removes all learned parameters',
+            'It doubles image resolution',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 237,
+        "topic": 'cnn',
+        "difficulty": 'hard',
+        "question": 'Why can CNNs generalize useful visual patterns across locations?',
+        "options": [
+            'Convolution uses shared filter weights across spatial positions',
+            'Each pixel gets a completely unrelated model',
+            'Pooling stores the original image',
+            'The output has no spatial structure',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 238,
+        "topic": 'probability',
+        "difficulty": 'easy',
+        "question": 'What is the probability of a certain event?',
+        "options": [
+            '1',
+            '0',
+            '-1',
+            '2',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 239,
+        "topic": 'probability',
+        "difficulty": 'easy',
+        "question": 'What is the probability of an impossible event?',
+        "options": [
+            '0',
+            '1',
+            '-1',
+            '0.5',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 240,
+        "topic": 'probability',
+        "difficulty": 'medium',
+        "question": 'If two events cannot occur together, what are they called?',
+        "options": [
+            'Mutually exclusive',
+            'Independent',
+            'Identical',
+            'Continuous',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 241,
+        "topic": 'probability',
+        "difficulty": 'medium',
+        "question": 'For independent events A and B, how is their joint probability computed?',
+        "options": [
+            'P(A)P(B)',
+            'P(A)+P(B)',
+            'P(A)-P(B)',
+            'P(A)/P(B)',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 242,
+        "topic": 'probability',
+        "difficulty": 'hard',
+        "question": 'What does conditional probability P(A|B) describe?',
+        "options": [
+            'Probability of A given that B has occurred',
+            'Probability of B never occurring',
+            'Probability of A and B being impossible',
+            'Probability of A without any condition',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 243,
+        "topic": 'probability',
+        "difficulty": 'hard',
+        "question": 'What does Bayes theorem allow you to compute?',
+        "options": [
+            'A posterior probability from related prior and likelihood information',
+            'Only an arithmetic mean',
+            'Only a variance',
+            'Only a sample size',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 244,
+        "topic": 'statistics',
+        "difficulty": 'easy',
+        "question": 'What does the mean represent?',
+        "options": [
+            'The arithmetic average',
+            'The largest value',
+            'The smallest value',
+            'The middle value only',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 245,
+        "topic": 'statistics',
+        "difficulty": 'easy',
+        "question": 'What does the median represent?',
+        "options": [
+            'The middle ordered value or midpoint of two middle values',
+            'The most frequent value only',
+            'The total of all values',
+            'The range',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 246,
+        "topic": 'statistics',
+        "difficulty": 'medium',
+        "question": 'Which quantity is measured by standard deviation?',
+        "options": [
+            'Spread of values around the mean',
+            'Number of observations only',
+            'The maximum value',
+            'The sample label',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 247,
+        "topic": 'statistics',
+        "difficulty": 'medium',
+        "question": 'What does a correlation coefficient near zero indicate?',
+        "options": [
+            'Little linear association',
+            'Perfect positive linear association',
+            'Perfect negative linear association',
+            'Equal means',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 248,
+        "topic": 'statistics',
+        "difficulty": 'hard',
+        "question": 'Why is a sample used instead of a population in many studies?',
+        "options": [
+            'The whole population may be too large or costly to measure',
+            'A sample always contains every individual',
+            'A sample has no uncertainty',
+            'Population data are always invalid',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 249,
+        "topic": 'statistics',
+        "difficulty": 'hard',
+        "question": 'What does a confidence interval communicate?',
+        "options": [
+            'A range produced by a statistical procedure to reflect uncertainty about a population parameter',
+            'The exact value of every observation',
+            'A guarantee that the parameter is inside',
+            'Only the sample maximum',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 250,
+        "topic": 'rnn',
+        "difficulty": 'easy',
+        "question": 'Which expansion is correct for the acronym RNN?',
+        "options": [
+            'Recurrent Neural Network',
+            'Random Numeric Network',
+            'Recursive Normal Node',
+            'Reduced Neural Number',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 251,
+        "topic": 'rnn',
+        "difficulty": 'easy',
+        "question": 'What is a key idea in an RNN?',
+        "options": [
+            'Using a hidden state to carry information across sequence steps',
+            'Ignoring previous inputs',
+            'Using no trainable parameters',
+            'Processing only unordered data',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 252,
+        "topic": 'rnn',
+        "difficulty": 'medium',
+        "question": 'RNNs are commonly applied to which kind of data?',
+        "options": [
+            'Sequences',
+            'Only static images',
+            'Only database schemas',
+            'Only isolated constants',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 253,
+        "topic": 'rnn',
+        "difficulty": 'medium',
+        "question": 'What difficulty can basic RNNs face over long sequences?',
+        "options": [
+            'Vanishing or exploding gradients',
+            'No input values',
+            'Too many image channels',
+            'No hidden state',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 254,
+        "topic": 'rnn',
+        "difficulty": 'hard',
+        "question": 'Why does an RNN hidden state matter?',
+        "options": [
+            'It provides a representation influenced by earlier sequence elements',
+            'It stores only the final label',
+            'It replaces the optimizer',
+            'It removes sequence order',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 255,
+        "topic": 'rnn',
+        "difficulty": 'hard',
+        "question": 'What is truncated backpropagation through time used for?',
+        "options": [
+            'Limiting the number of time steps used for gradient propagation',
+            'Increasing image resolution',
+            'Removing recurrent connections',
+            'Changing labels into features',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 256,
+        "topic": 'lstm',
+        "difficulty": 'easy',
+        "question": 'Which expansion is correct for the acronym LSTM?',
+        "options": [
+            'Long Short-Term Memory',
+            'Long Sequence Training Model',
+            'Linear State Transfer Machine',
+            'Local Short Tensor Method',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 257,
+        "topic": 'lstm',
+        "difficulty": 'easy',
+        "question": 'Why was LSTM designed?',
+        "options": [
+            'To help neural networks retain useful information over longer sequences',
+            'To classify only static images',
+            'To remove all memory from an RNN',
+            'To replace datasets',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 258,
+        "topic": 'lstm',
+        "difficulty": 'medium',
+        "question": 'Which component helps an LSTM control information flow?',
+        "options": [
+            'Gates',
+            'Pooling layers',
+            'Decision trees',
+            'Kernels only',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 259,
+        "topic": 'lstm',
+        "difficulty": 'medium',
+        "question": 'What does the forget gate mainly control?',
+        "options": [
+            'What information from the cell state should be discarded',
+            'The number of classes',
+            'The image size',
+            'The optimizer type',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 260,
+        "topic": 'lstm',
+        "difficulty": 'hard',
+        "question": 'What does the input gate help control?',
+        "options": [
+            'What new information is written to the cell state',
+            'Which test examples are removed',
+            'The batch count only',
+            'The vocabulary size directly',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 261,
+        "topic": 'lstm',
+        "difficulty": 'hard',
+        "question": 'Why can LSTM reduce the vanishing-gradient problem compared with a basic RNN?',
+        "options": [
+            'Its gated cell-state pathway can preserve information and gradients over longer spans',
+            'It has no nonlinearities',
+            'It never uses gradients',
+            'It has no recurrent connections',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 262,
+        "topic": 'natural_language_processing',
+        "difficulty": 'easy',
+        "question": 'Which expansion is correct for the acronym NLP?',
+        "options": [
+            'Natural Language Processing',
+            'Neural Learning Program',
+            'Numeric Language Prediction',
+            'Natural Logic Protocol',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 263,
+        "topic": 'natural_language_processing',
+        "difficulty": 'easy',
+        "question": 'What is tokenization?',
+        "options": [
+            'Splitting text into smaller units such as words or subwords',
+            'Deleting every word',
+            'Translating text to images',
+            'Sorting documents alphabetically',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 264,
+        "topic": 'natural_language_processing',
+        "difficulty": 'medium',
+        "question": 'What is named entity recognition used for?',
+        "options": [
+            'Identifying entities such as people, places, and organizations',
+            'Counting only punctuation',
+            'Generating random text',
+            'Removing all nouns',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 265,
+        "topic": 'natural_language_processing',
+        "difficulty": 'medium',
+        "question": 'What is part-of-speech tagging?',
+        "options": [
+            'Assigning grammatical categories to tokens',
+            'Encrypting text',
+            'Counting documents',
+            'Creating images',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 266,
+        "topic": 'natural_language_processing',
+        "difficulty": 'hard',
+        "question": 'Why is text normalization useful?',
+        "options": [
+            'It makes textual forms more consistent for downstream processing',
+            'It guarantees perfect translation',
+            'It removes all meaning',
+            'It always increases vocabulary size',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 267,
+        "topic": 'natural_language_processing',
+        "difficulty": 'hard',
+        "question": 'What is word sense disambiguation?',
+        "options": [
+            'Choosing the intended meaning of a word from its context',
+            'Splitting words into characters only',
+            'Removing stopwords only',
+            'Counting word frequency',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 268,
+        "topic": 'word_embeddings',
+        "difficulty": 'easy',
+        "question": 'Which statement best describes a word embedding?',
+        "options": [
+            'A numerical vector representation of a word or token',
+            'A grammar rule only',
+            'An image file',
+            'A database password',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 269,
+        "topic": 'word_embeddings',
+        "difficulty": 'easy',
+        "question": 'What is a useful property of many word embeddings?',
+        "options": [
+            'Semantically related words can have similar vector representations',
+            'Every word must have the same vector',
+            'They contain no numerical values',
+            'They work only for punctuation',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 270,
+        "topic": 'word_embeddings',
+        "difficulty": 'medium',
+        "question": 'What does Word2Vec learn?',
+        "options": [
+            'Vector representations from word-context relationships',
+            'Only document lengths',
+            'Only punctuation positions',
+            'Image filters',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 271,
+        "topic": 'word_embeddings',
+        "difficulty": 'medium',
+        "question": 'What is a limitation of basic static word embeddings?',
+        "options": [
+            'A word generally has one vector even when its meaning changes by context',
+            'They cannot be stored numerically',
+            'They always require images',
+            'They contain no semantic information',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 272,
+        "topic": 'word_embeddings',
+        "difficulty": 'hard',
+        "question": 'Why are embeddings useful as model inputs?',
+        "options": [
+            'They convert discrete tokens into continuous numerical representations',
+            'They remove the need for any model',
+            'They guarantee correct predictions',
+            'They eliminate sequence order',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 273,
+        "topic": 'word_embeddings',
+        "difficulty": 'hard',
+        "question": 'How do contextual embeddings differ from static embeddings?',
+        "options": [
+            'Their representation can depend on surrounding context',
+            'They cannot represent words numerically',
+            'They are always one-hot vectors',
+            'They contain only word length',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 274,
+        "topic": 'transformers',
+        "difficulty": 'easy',
+        "question": 'What is a key component of the Transformer architecture?',
+        "options": [
+            'Self-attention',
+            'Decision trees',
+            'Pooling only',
+            'K-means clustering',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 275,
+        "topic": 'transformers',
+        "difficulty": 'easy',
+        "question": 'What does self-attention help a token do?',
+        "options": [
+            'Use information from other tokens in the sequence',
+            'Ignore all other tokens',
+            'Change the dataset labels',
+            'Remove the vocabulary',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 276,
+        "topic": 'transformers',
+        "difficulty": 'medium',
+        "question": 'Why are positional encodings or position information used?',
+        "options": [
+            'To provide information about token order',
+            'To reduce all tokens to one number',
+            'To label images',
+            'To calculate accuracy',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 277,
+        "topic": 'transformers',
+        "difficulty": 'medium',
+        "question": 'In a Transformer, what is meant by multi-head attention?',
+        "options": [
+            'Several attention mechanisms operating in parallel with different learned projections',
+            'Several datasets merged without learning',
+            'Multiple loss functions added randomly',
+            'A method that removes token order',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 278,
+        "topic": 'transformers',
+        "difficulty": 'hard',
+        "question": 'Why can Transformers process sequence tokens in parallel during training more readily than standard RNNs?',
+        "options": [
+            'Self-attention does not require processing tokens strictly one step after another',
+            'Transformers have no parameters',
+            'RNNs cannot process text',
+            'Transformers use no matrix operations',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 279,
+        "topic": 'transformers',
+        "difficulty": 'hard',
+        "question": 'What is the purpose of a Transformer feed-forward sublayer?',
+        "options": [
+            'To apply learned nonlinear transformations independently to each position after attention',
+            'To store the entire dataset permanently',
+            'To replace all attention heads',
+            'To perform database indexing',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 280,
+        "topic": 'image_classification',
+        "difficulty": 'easy',
+        "question": 'Which task is called image classification?',
+        "options": [
+            'Assigning an image to one or more predefined classes',
+            'Detecting every object location only',
+            'Compressing an image file',
+            'Changing image brightness',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 281,
+        "topic": 'image_classification',
+        "difficulty": 'easy',
+        "question": 'What is a label in image classification?',
+        "options": [
+            'The target class associated with an image',
+            'The image width',
+            'The optimizer',
+            'A convolution kernel',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 282,
+        "topic": 'image_classification',
+        "difficulty": 'medium',
+        "question": 'What is data augmentation?',
+        "options": [
+            'Creating varied training examples through transformations of existing data',
+            'Deleting training images',
+            'Changing labels randomly every time',
+            'Removing all pixels',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 283,
+        "topic": 'image_classification',
+        "difficulty": 'medium',
+        "question": 'Why is a separate test set used?',
+        "options": [
+            'To evaluate performance on data not used for fitting or tuning',
+            'To increase training labels',
+            'To guarantee perfect accuracy',
+            'To store model weights',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 284,
+        "topic": 'image_classification',
+        "difficulty": 'hard',
+        "question": 'What does top-1 accuracy measure?',
+        "options": [
+            'Whether the highest-scoring predicted class matches the true class',
+            'Whether any class appears in the dataset',
+            'The number of layers',
+            'The training time',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 285,
+        "topic": 'image_classification',
+        "difficulty": 'hard',
+        "question": 'Why can class imbalance affect image classification?',
+        "options": [
+            'A model may be biased toward classes with many training examples',
+            'All classes become equally represented automatically',
+            'Images lose their pixels',
+            'The optimizer stops working',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 286,
+        "topic": 'object_detection',
+        "difficulty": 'easy',
+        "question": 'Which task is called object detection?',
+        "options": [
+            'Finding objects and their locations in an image',
+            'Assigning one label to an entire dataset',
+            'Removing image backgrounds only',
+            'Compressing images',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 287,
+        "topic": 'object_detection',
+        "difficulty": 'easy',
+        "question": 'In object detection, what does a bounding box specify?',
+        "options": [
+            'The location and extent of a detected object',
+            'The model learning rate',
+            'A class vocabulary',
+            'The image file size',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 288,
+        "topic": 'object_detection',
+        "difficulty": 'medium',
+        "question": 'What does IoU compare?',
+        "options": [
+            'Overlap between predicted and ground-truth bounding boxes',
+            'Training and test accuracy',
+            'Two learning rates',
+            'Two class names',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 289,
+        "topic": 'object_detection',
+        "difficulty": 'medium',
+        "question": 'Why is non-maximum suppression used?',
+        "options": [
+            'To reduce multiple overlapping detections of the same object',
+            'To increase the number of duplicate boxes',
+            'To normalize image colors',
+            'To train word embeddings',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 290,
+        "topic": 'object_detection',
+        "difficulty": 'hard',
+        "question": 'What is a confidence score in object detection?',
+        "options": [
+            'A model-estimated confidence that a detection corresponds to an object/class',
+            'The exact physical size of the object',
+            'The image resolution',
+            'The number of training epochs',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 291,
+        "topic": 'object_detection',
+        "difficulty": 'hard',
+        "question": 'Why can small objects be difficult to detect?',
+        "options": [
+            'Their visual features may occupy very few pixels and be lost during downsampling',
+            'They always have no labels',
+            'They cannot be represented by CNNs',
+            'They have infinite resolution',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 292,
+        "topic": 'generative_ai',
+        "difficulty": 'easy',
+        "question": 'What is generative AI designed to do?',
+        "options": [
+            'Generate new content such as text, images, audio, or code',
+            'Only sort databases',
+            'Only detect objects',
+            'Only calculate averages',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 293,
+        "topic": 'generative_ai',
+        "difficulty": 'easy',
+        "question": 'Which is an example of generative AI output?',
+        "options": [
+            'A newly generated paragraph',
+            'A fixed database schema',
+            'A temperature sensor reading',
+            'A manually entered ID',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 294,
+        "topic": 'generative_ai',
+        "difficulty": 'medium',
+        "question": 'What does a generative model learn to represent?',
+        "options": [
+            'Patterns or distributions that can be used to produce new samples',
+            'Only the names of users',
+            'Only hardware temperatures',
+            'Only file extensions',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 295,
+        "topic": 'generative_ai',
+        "difficulty": 'medium',
+        "question": 'What is a common risk when generative models produce plausible but false information?',
+        "options": [
+            'Hallucination or factual error',
+            'Guaranteed correctness',
+            'Zero variability',
+            'Automatic source verification',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 296,
+        "topic": 'generative_ai',
+        "difficulty": 'hard',
+        "question": 'What does temperature commonly control in text generation?',
+        "options": [
+            'Randomness or diversity of token selection',
+            'The physical CPU temperature',
+            'The vocabulary size only',
+            'The model parameter count',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 297,
+        "topic": 'generative_ai',
+        "difficulty": 'hard',
+        "question": 'Why can retrieval-augmented generation improve factual grounding?',
+        "options": [
+            'It supplies retrieved external information to the generation process',
+            'It removes all model parameters',
+            'It guarantees every retrieved source is correct',
+            'It prevents any generation',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 298,
+        "topic": 'large_language_models',
+        "difficulty": 'easy',
+        "question": 'Which expansion is correct for the acronym LLM?',
+        "options": [
+            'Large Language Model',
+            'Long Learning Machine',
+            'Language Logic Module',
+            'Large Linear Memory',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 299,
+        "topic": 'large_language_models',
+        "difficulty": 'easy',
+        "question": 'What is an LLM primarily trained to model?',
+        "options": [
+            'Patterns in sequences of language tokens',
+            'Only image edges',
+            'Only database tables',
+            'Only sensor voltages',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 300,
+        "topic": 'large_language_models',
+        "difficulty": 'medium',
+        "question": 'What is a token in an LLM?',
+        "options": [
+            'A unit of text processed by the model',
+            'A hardware component',
+            'A database table',
+            'A class label only',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 301,
+        "topic": 'large_language_models',
+        "difficulty": 'medium',
+        "question": 'What is pretraining?',
+        "options": [
+            'Learning general patterns from a large corpus before later task-specific adaptation',
+            'Testing only on one example',
+            'Deleting model weights',
+            'Manually writing every response',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 302,
+        "topic": 'large_language_models',
+        "difficulty": 'hard',
+        "question": 'In machine learning, what is fine-tuning?',
+        "options": [
+            'Further training a pretrained model on a targeted dataset or task',
+            'Compressing a model into a zip file',
+            'Removing all attention layers',
+            'Changing only the user interface',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 303,
+        "topic": 'large_language_models',
+        "difficulty": 'hard',
+        "question": 'Why can LLMs require substantial computing resources?',
+        "options": [
+            'They can contain many parameters and process large amounts of data',
+            'They contain no numerical operations',
+            'They never use matrix multiplication',
+            'They work only on paper',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 304,
+        "topic": 'model_deployment',
+        "difficulty": 'easy',
+        "question": 'What does model deployment mean?',
+        "options": [
+            'Making a trained model available for use in a real application',
+            'Training a model without data',
+            'Deleting a trained model',
+            'Only changing a model name',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 305,
+        "topic": 'model_deployment',
+        "difficulty": 'easy',
+        "question": 'In model deployment, what is an API commonly used for?',
+        "options": [
+            'Allowing software to send inputs to and receive outputs from a model service',
+            'Storing images only',
+            'Replacing the operating system',
+            'Calculating exam marks manually',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 306,
+        "topic": 'model_deployment',
+        "difficulty": 'medium',
+        "question": 'In a deployed model, what is inference?',
+        "options": [
+            'Using a trained model to produce predictions on new inputs',
+            'Training from scratch only',
+            'Deleting predictions',
+            'Collecting labels manually',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 307,
+        "topic": 'model_deployment',
+        "difficulty": 'medium',
+        "question": 'Why is input validation important in a deployed ML service?',
+        "options": [
+            'It helps reject malformed or unexpected inputs before model processing',
+            'It guarantees perfect predictions',
+            'It increases the model parameter count',
+            'It removes the need for monitoring',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 308,
+        "topic": 'model_deployment',
+        "difficulty": 'hard',
+        "question": 'What is model latency?',
+        "options": [
+            'The time taken to produce a response or prediction',
+            'The number of model classes',
+            'The training dataset size',
+            'The model accuracy',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 309,
+        "topic": 'model_deployment',
+        "difficulty": 'hard',
+        "question": 'Why is model monitoring needed after deployment?',
+        "options": [
+            'Data and model behavior can change over time, affecting performance',
+            'A deployed model never changes context',
+            'Monitoring replaces all testing',
+            'It guarantees zero failures',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 310,
+        "topic": 'mlops',
+        "difficulty": 'easy',
+        "question": 'What does MLOps combine?',
+        "options": [
+            'Machine learning practices with software engineering and operations',
+            'Only hardware repair',
+            'Only data entry',
+            'Only UI design',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 311,
+        "topic": 'mlops',
+        "difficulty": 'easy',
+        "question": 'What is version control used for in ML projects?',
+        "options": [
+            'Tracking changes to code and other project artifacts',
+            'Increasing GPU memory',
+            'Replacing model evaluation',
+            'Removing all datasets',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 312,
+        "topic": 'mlops',
+        "difficulty": 'medium',
+        "question": 'In MLOps, what is the purpose of a model registry?',
+        "options": [
+            'A system for storing and managing model versions and metadata',
+            'A list of programming keywords',
+            'A GPU driver',
+            'A database of keyboard shortcuts',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 313,
+        "topic": 'mlops',
+        "difficulty": 'medium',
+        "question": 'Why are reproducible ML pipelines valuable?',
+        "options": [
+            'They make data processing, training, and evaluation more repeatable',
+            'They guarantee the same real-world data forever',
+            'They remove the need for testing',
+            'They prevent model updates',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 314,
+        "topic": 'mlops',
+        "difficulty": 'hard',
+        "question": 'In MLOps, what does data drift mean?',
+        "options": [
+            'A change in the distribution of input data over time',
+            'A change in Python syntax',
+            'A faster GPU',
+            'A reduction in model file size',
+        ],
+        "answer": 1
+    },
+
+    {
+        "id": 315,
+        "topic": 'mlops',
+        "difficulty": 'hard',
+        "question": 'What is CI/CD useful for in MLOps?',
+        "options": [
+            'Automating integration, testing, and delivery/deployment workflows',
+            'Only labeling images manually',
+            'Replacing all monitoring',
+            'Increasing model randomness',
+        ],
+        "answer": 1
+    },
 ]
 
 # --------------------------------

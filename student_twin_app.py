@@ -203,8 +203,19 @@ def save_student(student):
         .replace(".", "_")
     )
 
-    file_path = (
-        f"students/{safe_email}.json"
+    students_folder = os.path.join(
+        os.path.dirname(__file__),
+        "students"
+    )
+
+    os.makedirs(
+        students_folder,
+        exist_ok=True
+    )
+
+    file_path = os.path.join(
+        students_folder,
+        f"{safe_email}.json"
     )
 
     with open(
@@ -228,12 +239,19 @@ def load_student_by_email(email):
         .replace(".", "_")
     )
 
-    new_file_path = (
-        f"students/{safe_email}.json"
+    students_folder = os.path.join(
+        os.path.dirname(__file__),
+        "students"
     )
 
-    old_file_path = (
-        f"students/{email}.json"
+    new_file_path = os.path.join(
+        students_folder,
+        f"{safe_email}.json"
+    )
+
+    old_file_path = os.path.join(
+        students_folder,
+        f"{email}.json"
     )
 
     try:
@@ -254,6 +272,18 @@ def load_student_by_email(email):
 
             student = json.load(file)
 
+
+    # --------------------------------
+    # ADD NEW TOPICS TO EXISTING STUDENT
+    # --------------------------------
+
+    for topic in knowledge_graph:
+
+        if topic not in student["knowledge"]:
+
+            student["knowledge"][topic] = 0.0
+
+
     return student
 
 def student_exists(email):
@@ -266,8 +296,14 @@ def student_exists(email):
         .replace(".", "_")
     )
 
-    file_path = (
-        f"students/{safe_email}.json"
+    students_folder = os.path.join(
+        os.path.dirname(__file__),
+        "students"
+    )
+
+    file_path = os.path.join(
+        students_folder,
+        f"{safe_email}.json"
     )
 
     return os.path.exists(file_path)
@@ -1329,11 +1365,11 @@ if page == "🎯 Learn":
 
         st.write(
             f"### Question "
-            f"{st.session_state.session_questions + 1} of 5"
+            f"{st.session_state.session_questions + 1} of 10"
         )
 
         st.progress(
-            st.session_state.session_questions / 5
+            st.session_state.session_questions / 10
         )
 
         st.subheader(
@@ -1430,7 +1466,7 @@ if page == "🎯 Learn":
             # SESSION COMPLETE
             # --------------------------------
 
-            if st.session_state.session_questions >= 5:
+            if st.session_state.session_questions >= 10:
 
                 st.session_state.current_question = None
                 st.session_state.session_started = False
@@ -1466,7 +1502,7 @@ if page == "🎯 Learn":
                 # --------------------------------
 
                 st.success(
-                    "🎉 5-question adaptive session completed!"
+                    "🎉 10-question adaptive session completed!"
                 )
 
                 st.subheader(

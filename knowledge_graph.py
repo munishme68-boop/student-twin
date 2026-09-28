@@ -109,6 +109,18 @@ knowledge_graph = {
     "mlops": [
         "model_deployment",
         "machine_learning"
+    ],
+
+        # --------------------------------
+    # MECHANICAL / ROBOTICS
+    # --------------------------------
+
+    "thermodynamics": [],
+
+    "fluid_mechanics": [],
+
+    "ros": [
+        "python"
     ]
 }
 
